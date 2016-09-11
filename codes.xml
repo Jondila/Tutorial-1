@@ -1,0 +1,3093 @@
+<beast version = '2.0' namespace='master:master.model:master.steppers:master.conditions:master.postprocessors:master.outputs'>
+
+<run spec='Ensemble'
+       simulationTime='100'
+       nTraj='1'>
+
+  <model spec='Model' id= 'Model'>
+    <populationType spec='PopulationType' typeName='S' dim='33' id='S'/>
+    <populationType spec='PopulationType' typeName='I' dim='33' id='I'/>
+
+    <reaction spec='Reaction' rate='0.084200271'>
+    S[0] + I[30] -> I[0]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009158991'>
+    S[1] + I[32] -> I[1]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006376438'>
+    S[2] + I[32] -> I[2]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.029911298'>
+    S[3] + I[30] -> I[3]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005027474'>
+    S[4] + I[32] -> I[4]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004778369'>
+    S[5] + I[32] -> I[5]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002868846'>
+    S[6] + I[32] -> I[6]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.019967587'>
+    S[7] + I[30] -> I[7]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001995594'>
+    S[8] + I[32] -> I[8]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001849087'>
+    S[9] + I[32] -> I[9]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001654019'>
+    S[10] + I[32] -> I[10]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001268309'>
+    S[11] + I[32] -> I[11]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001152664'>
+    S[12] + I[32] -> I[12]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001033413'>
+    S[13] + I[32] -> I[13]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000954787'>
+    S[14] + I[32] -> I[14]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000951992'>
+    S[15] + I[32] -> I[15]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000791371'>
+    S[16] + I[32] -> I[16]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00065528'>
+    S[17] + I[32] -> I[17]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00047726'>
+    S[18] + I[32] -> I[18]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000403777'>
+    S[19] + I[32] -> I[19]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000387584'>
+    S[20] + I[32] -> I[20]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000376659'>
+    S[21] + I[32] -> I[21]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000327628'>
+    S[22] + I[32] -> I[22]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000308849'>
+    S[3] + I[32] -> I[3]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00030287'>
+    S[23] + I[32] -> I[23]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000298898'>
+    S[7] + I[32] -> I[7]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000241647'>
+    S[24] + I[32] -> I[24]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00023684'>
+    S[25] + I[32] -> I[25]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000233506'>
+    S[26] + I[32] -> I[26]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000113227'>
+    S[27] + I[32] -> I[27]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000103464'>
+    S[0] + I[32] -> I[0]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='7.71e-05'>
+    S[28] + I[32] -> I[28]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='6.59e-05'>
+    S[29] + I[32] -> I[29]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='1.7e-06'>
+    S[30] + I[32] -> I[30]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='4.95e-08'>
+    S[31] + I[32] -> I[31]+ I[32]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006912258'>
+    S[8] + I[11] -> I[8]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006363096'>
+    S[24] + I[11] -> I[24]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003360953'>
+    S[27] + I[11] -> I[27]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002968865'>
+    S[20] + I[11] -> I[20]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002549622'>
+    S[3] + I[11] -> I[3]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002449027'>
+    S[26] + I[11] -> I[26]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002315518'>
+    S[1] + I[11] -> I[1]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001614187'>
+    S[18] + I[11] -> I[18]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001575968'>
+    S[15] + I[11] -> I[15]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001473746'>
+    S[23] + I[11] -> I[23]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001230774'>
+    S[10] + I[11] -> I[10]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001210853'>
+    S[7] + I[11] -> I[7]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001196587'>
+    S[4] + I[11] -> I[4]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000892926'>
+    S[17] + I[11] -> I[17]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000729451'>
+    S[5] + I[11] -> I[5]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000709053'>
+    S[9] + I[11] -> I[9]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000700433'>
+    S[14] + I[11] -> I[14]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00065634'>
+    S[28] + I[11] -> I[28]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000586307'>
+    S[19] + I[11] -> I[19]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000471365'>
+    S[29] + I[11] -> I[29]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000393029'>
+    S[6] + I[11] -> I[6]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000328078'>
+    S[22] + I[11] -> I[22]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000317427'>
+    S[13] + I[11] -> I[13]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000282119'>
+    S[12] + I[11] -> I[12]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000277203'>
+    S[32] + I[11] -> I[32]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00026585'>
+    S[0] + I[11] -> I[0]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000114581'>
+    S[21] + I[11] -> I[21]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000111279'>
+    S[2] + I[11] -> I[2]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='6.8e-05'>
+    S[16] + I[11] -> I[16]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='5.04e-05'>
+    S[25] + I[11] -> I[25]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='2.68e-05'>
+    S[30] + I[11] -> I[30]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='7.91e-08'>
+    S[31] + I[11] -> I[31]+ I[11]
+    </reaction>
+    <reaction spec='Reaction' rate='0.016423005'>
+    S[20] + I[28] -> I[20]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005783361'>
+    S[8] + I[30] -> I[8]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.008170114'>
+    S[23] + I[28] -> I[23]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005910783'>
+    S[11] + I[28] -> I[11]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004380067'>
+    S[8] + I[28] -> I[8]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002892217'>
+    S[26] + I[28] -> I[26]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002794684'>
+    S[15] + I[28] -> I[15]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002721557'>
+    S[24] + I[28] -> I[24]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002535497'>
+    S[18] + I[28] -> I[18]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002229923'>
+    S[3] + I[28] -> I[3]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001166261'>
+    S[7] + I[28] -> I[7]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001020754'>
+    S[1] + I[28] -> I[1]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000991122'>
+    S[17] + I[28] -> I[17]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000769372'>
+    S[27] + I[28] -> I[27]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000532041'>
+    S[19] + I[28] -> I[19]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00041509'>
+    S[10] + I[28] -> I[10]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000390859'>
+    S[5] + I[28] -> I[5]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000380616'>
+    S[22] + I[28] -> I[22]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000365964'>
+    S[4] + I[28] -> I[4]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000289176'>
+    S[0] + I[28] -> I[0]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000263694'>
+    S[29] + I[28] -> I[29]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000247274'>
+    S[13] + I[28] -> I[13]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000234886'>
+    S[14] + I[28] -> I[14]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000221841'>
+    S[6] + I[28] -> I[6]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000193096'>
+    S[9] + I[28] -> I[9]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000119563'>
+    S[32] + I[28] -> I[32]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='8.68e-05'>
+    S[12] + I[28] -> I[12]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='8.31e-05'>
+    S[21] + I[28] -> I[21]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='7.8e-05'>
+    S[2] + I[28] -> I[2]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='7.07e-05'>
+    S[25] + I[28] -> I[25]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='2.02e-05'>
+    S[16] + I[28] -> I[16]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='4.19e-06'>
+    S[30] + I[28] -> I[30]+ I[28]
+    </reaction>
+    <reaction spec='Reaction' rate='0.019597517'>
+    S[5] + I[2] -> I[5]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.011594767'>
+    S[14] + I[2] -> I[14]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006113093'>
+    S[1] + I[2] -> I[1]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005095485'>
+    S[32] + I[2] -> I[32]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002369072'>
+    S[21] + I[2] -> I[21]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002202484'>
+    S[13] + I[2] -> I[13]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0020222'>
+    S[8] + I[2] -> I[8]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001688982'>
+    S[12] + I[2] -> I[12]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001557781'>
+    S[6] + I[2] -> I[6]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004233363'>
+    S[15] + I[30] -> I[15]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00132964'>
+    S[9] + I[2] -> I[9]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004125778'>
+    S[17] + I[30] -> I[17]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001096044'>
+    S[11] + I[2] -> I[11]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001066536'>
+    S[25] + I[2] -> I[25]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000953693'>
+    S[4] + I[2] -> I[4]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000717374'>
+    S[10] + I[2] -> I[10]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000673788'>
+    S[15] + I[2] -> I[15]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000526126'>
+    S[7] + I[2] -> I[7]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000359167'>
+    S[20] + I[2] -> I[20]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000304112'>
+    S[16] + I[2] -> I[16]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000270571'>
+    S[19] + I[2] -> I[19]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000245241'>
+    S[3] + I[2] -> I[3]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000170466'>
+    S[17] + I[2] -> I[17]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000166578'>
+    S[18] + I[2] -> I[18]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00014922'>
+    S[27] + I[2] -> I[27]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000144712'>
+    S[24] + I[2] -> I[24]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000144661'>
+    S[22] + I[2] -> I[22]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000105479'>
+    S[29] + I[2] -> I[29]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='9.66e-05'>
+    S[23] + I[2] -> I[23]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='7.33e-05'>
+    S[28] + I[2] -> I[28]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='7.32e-05'>
+    S[0] + I[2] -> I[0]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='7.02e-05'>
+    S[26] + I[2] -> I[26]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='8.46e-07'>
+    S[30] + I[2] -> I[30]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='9.28e-08'>
+    S[31] + I[2] -> I[31]+ I[2]
+    </reaction>
+    <reaction spec='Reaction' rate='0.023570935'>
+    S[11] + I[27] -> I[11]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009327344'>
+    S[20] + I[27] -> I[20]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003595301'>
+    S[8] + I[27] -> I[8]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003037965'>
+    S[3] + I[27] -> I[3]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002073914'>
+    S[24] + I[27] -> I[24]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001869796'>
+    S[18] + I[27] -> I[18]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001470571'>
+    S[15] + I[27] -> I[15]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001069122'>
+    S[1] + I[27] -> I[1]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001040572'>
+    S[23] + I[27] -> I[23]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000975218'>
+    S[7] + I[27] -> I[7]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000952225'>
+    S[10] + I[27] -> I[10]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000730278'>
+    S[17] + I[27] -> I[17]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000650975'>
+    S[26] + I[27] -> I[26]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000525108'>
+    S[28] + I[27] -> I[28]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000522895'>
+    S[4] + I[27] -> I[4]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000517656'>
+    S[5] + I[27] -> I[5]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000447005'>
+    S[19] + I[27] -> I[19]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000418057'>
+    S[22] + I[27] -> I[22]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000412351'>
+    S[29] + I[27] -> I[29]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000373021'>
+    S[14] + I[27] -> I[14]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00033178'>
+    S[9] + I[27] -> I[9]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000310002'>
+    S[6] + I[27] -> I[6]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000283819'>
+    S[13] + I[27] -> I[13]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000240774'>
+    S[0] + I[27] -> I[0]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000221825'>
+    S[21] + I[27] -> I[21]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000204013'>
+    S[32] + I[27] -> I[32]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000146249'>
+    S[12] + I[27] -> I[12]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='6.12e-05'>
+    S[2] + I[27] -> I[2]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='3.92e-05'>
+    S[25] + I[27] -> I[25]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='3.73e-05'>
+    S[16] + I[27] -> I[16]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='1.35e-05'>
+    S[30] + I[27] -> I[30]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='7.43e-08'>
+    S[31] + I[27] -> I[31]+ I[27]
+    </reaction>
+    <reaction spec='Reaction' rate='0.013374801'>
+    S[8] + I[15] -> I[8]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005755165'>
+    S[7] + I[15] -> I[7]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005440602'>
+    S[22] + I[15] -> I[22]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003285318'>
+    S[18] + I[15] -> I[18]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002931827'>
+    S[17] + I[15] -> I[17]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001632591'>
+    S[11] + I[15] -> I[11]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001501136'>
+    S[23] + I[15] -> I[23]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001391653'>
+    S[19] + I[15] -> I[19]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0011488'>
+    S[20] + I[15] -> I[20]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001140196'>
+    S[3] + I[15] -> I[3]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001013615'>
+    S[0] + I[15] -> I[0]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001008649'>
+    S[26] + I[15] -> I[26]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000869488'>
+    S[1] + I[15] -> I[1]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000613234'>
+    S[29] + I[15] -> I[29]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000495831'>
+    S[5] + I[15] -> I[5]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000394309'>
+    S[9] + I[15] -> I[9]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000366345'>
+    S[24] + I[15] -> I[24]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000308297'>
+    S[13] + I[15] -> I[13]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000302148'>
+    S[28] + I[15] -> I[28]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000285204'>
+    S[4] + I[15] -> I[4]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000258015'>
+    S[14] + I[15] -> I[14]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000240572'>
+    S[10] + I[15] -> I[10]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00021162'>
+    S[6] + I[15] -> I[6]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000195639'>
+    S[27] + I[15] -> I[27]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00016016'>
+    S[32] + I[15] -> I[32]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000126503'>
+    S[12] + I[15] -> I[12]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='8.87e-05'>
+    S[21] + I[15] -> I[21]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002091499'>
+    S[18] + I[30] -> I[18]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='7.84e-05'>
+    S[2] + I[15] -> I[2]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='5.19e-05'>
+    S[25] + I[15] -> I[25]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='4.92e-05'>
+    S[16] + I[15] -> I[16]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='3.07e-05'>
+    S[30] + I[15] -> I[30]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='1.09e-07'>
+    S[31] + I[15] -> I[31]+ I[15]
+    </reaction>
+    <reaction spec='Reaction' rate='0.008813541'>
+    S[20] + I[23] -> I[20]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00730436'>
+    S[15] + I[23] -> I[15]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006823844'>
+    S[8] + I[23] -> I[8]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002020272'>
+    S[29] + I[30] -> I[29]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003595602'>
+    S[11] + I[23] -> I[11]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002742363'>
+    S[28] + I[23] -> I[28]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001667155'>
+    S[18] + I[23] -> I[18]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001569851'>
+    S[7] + I[23] -> I[7]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001098235'>
+    S[3] + I[23] -> I[3]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001038288'>
+    S[24] + I[23] -> I[24]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001029804'>
+    S[17] + I[23] -> I[17]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00099912'>
+    S[1] + I[23] -> I[1]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000942565'>
+    S[26] + I[23] -> I[26]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000819267'>
+    S[19] + I[23] -> I[19]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000733129'>
+    S[22] + I[23] -> I[22]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000642968'>
+    S[4] + I[23] -> I[4]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000446453'>
+    S[27] + I[23] -> I[27]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000409842'>
+    S[5] + I[23] -> I[5]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000317495'>
+    S[14] + I[23] -> I[14]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000308896'>
+    S[0] + I[23] -> I[0]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000306353'>
+    S[10] + I[23] -> I[10]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000289273'>
+    S[13] + I[23] -> I[13]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00027844'>
+    S[9] + I[23] -> I[9]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00167159'>
+    S[11] + I[30] -> I[11]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000244587'>
+    S[6] + I[23] -> I[6]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000233751'>
+    S[29] + I[23] -> I[29]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000184138'>
+    S[32] + I[23] -> I[32]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000103944'>
+    S[12] + I[23] -> I[12]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='8.58e-05'>
+    S[2] + I[23] -> I[2]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='7.56e-05'>
+    S[21] + I[23] -> I[21]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='4.42e-05'>
+    S[25] + I[23] -> I[25]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='3.07e-05'>
+    S[16] + I[23] -> I[16]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='7.57e-06'>
+    S[30] + I[23] -> I[30]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='1.02e-07'>
+    S[31] + I[23] -> I[31]+ I[23]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005808539'>
+    S[14] + I[13] -> I[14]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005314166'>
+    S[9] + I[13] -> I[9]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005037008'>
+    S[25] + I[13] -> I[25]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004133458'>
+    S[1] + I[13] -> I[1]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00374246'>
+    S[21] + I[13] -> I[21]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003569162'>
+    S[10] + I[13] -> I[10]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003383861'>
+    S[5] + I[13] -> I[5]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002834301'>
+    S[16] + I[13] -> I[16]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002429804'>
+    S[8] + I[13] -> I[8]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001607777'>
+    S[12] + I[13] -> I[12]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001331577'>
+    S[2] + I[13] -> I[2]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001331377'>
+    S[11] + I[13] -> I[11]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00096766'>
+    S[6] + I[13] -> I[6]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00094183'>
+    S[15] + I[13] -> I[15]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000923435'>
+    S[4] + I[13] -> I[4]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000544326'>
+    S[32] + I[13] -> I[32]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000447056'>
+    S[7] + I[13] -> I[7]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000419778'>
+    S[20] + I[13] -> I[20]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000341573'>
+    S[3] + I[13] -> I[3]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000323117'>
+    S[19] + I[13] -> I[19]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00025693'>
+    S[23] + I[13] -> I[23]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000228193'>
+    S[17] + I[13] -> I[17]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000200033'>
+    S[18] + I[13] -> I[18]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000185465'>
+    S[22] + I[13] -> I[22]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000159683'>
+    S[24] + I[13] -> I[24]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000148024'>
+    S[27] + I[13] -> I[27]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00011312'>
+    S[29] + I[13] -> I[29]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='9.55e-05'>
+    S[26] + I[13] -> I[26]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='8.33e-05'>
+    S[0] + I[13] -> I[0]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='7.4e-05'>
+    S[28] + I[13] -> I[28]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='1.26e-06'>
+    S[30] + I[13] -> I[30]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='3.21e-07'>
+    S[31] + I[13] -> I[31]+ I[13]
+    </reaction>
+    <reaction spec='Reaction' rate='0.028248019'>
+    S[1] + I[5] -> I[1]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00366134'>
+    S[6] + I[5] -> I[6]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003596633'>
+    S[2] + I[5] -> I[2]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002688548'>
+    S[10] + I[5] -> I[10]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002454372'>
+    S[8] + I[5] -> I[8]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002190319'>
+    S[14] + I[5] -> I[14]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00148615'>
+    S[32] + I[5] -> I[32]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001469194'>
+    S[9] + I[5] -> I[9]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00146803'>
+    S[13] + I[5] -> I[13]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001416282'>
+    S[11] + I[5] -> I[11]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001287239'>
+    S[4] + I[5] -> I[4]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00106391'>
+    S[12] + I[5] -> I[12]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001004939'>
+    S[15] + I[5] -> I[15]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00083854'>
+    S[21] + I[5] -> I[21]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00051301'>
+    S[20] + I[5] -> I[20]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000432749'>
+    S[7] + I[5] -> I[7]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00043057'>
+    S[3] + I[5] -> I[3]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000404558'>
+    S[25] + I[5] -> I[25]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000380755'>
+    S[16] + I[5] -> I[16]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000333047'>
+    S[19] + I[5] -> I[19]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000286514'>
+    S[17] + I[5] -> I[17]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000249766'>
+    S[23] + I[5] -> I[23]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000233448'>
+    S[18] + I[5] -> I[18]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000195238'>
+    S[22] + I[5] -> I[22]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000170745'>
+    S[26] + I[5] -> I[26]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000169034'>
+    S[24] + I[5] -> I[24]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000161651'>
+    S[27] + I[5] -> I[27]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000107675'>
+    S[29] + I[5] -> I[29]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='9.14e-05'>
+    S[0] + I[5] -> I[0]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='7.87e-05'>
+    S[28] + I[5] -> I[28]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='1.7e-06'>
+    S[30] + I[5] -> I[30]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='3.96e-08'>
+    S[31] + I[5] -> I[31]+ I[5]
+    </reaction>
+    <reaction spec='Reaction' rate='0.011887594'>
+    S[15] + I[26] -> I[15]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00976126'>
+    S[11] + I[26] -> I[11]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006937902'>
+    S[8] + I[26] -> I[8]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006925459'>
+    S[18] + I[26] -> I[18]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005757874'>
+    S[20] + I[26] -> I[20]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003658388'>
+    S[28] + I[26] -> I[28]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002537901'>
+    S[23] + I[26] -> I[23]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002413363'>
+    S[7] + I[26] -> I[7]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002303334'>
+    S[17] + I[26] -> I[17]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001997277'>
+    S[3] + I[26] -> I[3]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001124371'>
+    S[22] + I[26] -> I[22]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00109186'>
+    S[19] + I[26] -> I[19]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000940344'>
+    S[24] + I[26] -> I[24]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000791907'>
+    S[5] + I[26] -> I[5]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001068995'>
+    S[20] + I[30] -> I[20]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000781646'>
+    S[0] + I[26] -> I[0]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000753096'>
+    S[1] + I[26] -> I[1]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000716688'>
+    S[10] + I[26] -> I[10]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000635313'>
+    S[27] + I[26] -> I[27]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000473666'>
+    S[4] + I[26] -> I[4]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000427452'>
+    S[29] + I[26] -> I[29]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000389758'>
+    S[9] + I[26] -> I[9]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000358844'>
+    S[32] + I[26] -> I[32]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000287081'>
+    S[6] + I[26] -> I[6]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000277612'>
+    S[13] + I[26] -> I[13]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000264986'>
+    S[12] + I[26] -> I[12]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000260233'>
+    S[21] + I[26] -> I[21]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000236255'>
+    S[14] + I[26] -> I[14]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000203471'>
+    S[2] + I[26] -> I[2]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000123901'>
+    S[16] + I[26] -> I[16]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000115809'>
+    S[25] + I[26] -> I[25]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='3.08e-05'>
+    S[30] + I[26] -> I[30]+ I[26]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007309179'>
+    S[15] + I[17] -> I[15]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006400761'>
+    S[7] + I[17] -> I[7]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006215535'>
+    S[8] + I[17] -> I[8]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004891669'>
+    S[18] + I[17] -> I[18]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004495005'>
+    S[0] + I[17] -> I[0]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001350533'>
+    S[11] + I[17] -> I[11]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001121224'>
+    S[22] + I[17] -> I[22]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001051799'>
+    S[29] + I[17] -> I[29]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001042144'>
+    S[3] + I[17] -> I[3]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000930632'>
+    S[19] + I[17] -> I[19]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000768166'>
+    S[20] + I[17] -> I[20]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000716527'>
+    S[1] + I[17] -> I[1]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000573033'>
+    S[26] + I[17] -> I[26]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0004964'>
+    S[23] + I[17] -> I[23]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000436502'>
+    S[9] + I[17] -> I[9]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000361682'>
+    S[5] + I[17] -> I[5]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000299864'>
+    S[24] + I[17] -> I[24]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000211611'>
+    S[4] + I[17] -> I[4]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000202309'>
+    S[28] + I[17] -> I[28]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000190306'>
+    S[13] + I[17] -> I[13]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000188868'>
+    S[10] + I[17] -> I[10]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000177097'>
+    S[32] + I[17] -> I[32]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000175075'>
+    S[14] + I[17] -> I[14]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000152694'>
+    S[6] + I[17] -> I[6]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000140615'>
+    S[27] + I[17] -> I[27]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000118065'>
+    S[12] + I[17] -> I[12]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000106381'>
+    S[16] + I[17] -> I[16]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='6.61e-05'>
+    S[2] + I[17] -> I[2]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000907767'>
+    S[23] + I[30] -> I[23]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='6.4e-05'>
+    S[21] + I[17] -> I[21]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='5.52e-05'>
+    S[30] + I[17] -> I[30]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='2.74e-05'>
+    S[25] + I[17] -> I[25]+ I[17]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00302515'>
+    S[8] + I[9] -> I[8]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002394393'>
+    S[1] + I[9] -> I[1]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001894603'>
+    S[5] + I[9] -> I[5]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001625958'>
+    S[12] + I[9] -> I[12]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001481888'>
+    S[13] + I[9] -> I[13]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001319426'>
+    S[14] + I[9] -> I[14]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001250546'>
+    S[32] + I[9] -> I[32]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000979868'>
+    S[16] + I[9] -> I[16]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000955504'>
+    S[21] + I[9] -> I[21]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000946298'>
+    S[11] + I[9] -> I[11]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000775936'>
+    S[17] + I[9] -> I[17]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000617446'>
+    S[15] + I[9] -> I[15]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000559214'>
+    S[4] + I[9] -> I[4]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000524058'>
+    S[6] + I[9] -> I[6]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000473559'>
+    S[2] + I[9] -> I[2]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000345281'>
+    S[10] + I[9] -> I[10]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000336669'>
+    S[18] + I[9] -> I[18]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000323863'>
+    S[19] + I[9] -> I[19]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000228175'>
+    S[7] + I[9] -> I[7]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000212221'>
+    S[25] + I[9] -> I[25]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000193025'>
+    S[22] + I[9] -> I[22]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000171996'>
+    S[3] + I[9] -> I[3]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000124387'>
+    S[26] + I[9] -> I[26]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000107532'>
+    S[20] + I[9] -> I[20]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='8.32e-05'>
+    S[23] + I[9] -> I[23]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='7.15e-05'>
+    S[24] + I[9] -> I[24]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='4.88e-05'>
+    S[29] + I[9] -> I[29]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='4.83e-05'>
+    S[27] + I[9] -> I[27]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='2.69e-05'>
+    S[0] + I[9] -> I[0]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='2.65e-05'>
+    S[28] + I[9] -> I[28]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='1.02e-06'>
+    S[30] + I[9] -> I[30]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='2.17e-08'>
+    S[31] + I[9] -> I[31]+ I[9]
+    </reaction>
+    <reaction spec='Reaction' rate='0.018695717'>
+    S[8] + I[19] -> I[8]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000768294'>
+    S[22] + I[30] -> I[22]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002922309'>
+    S[15] + I[19] -> I[15]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001416108'>
+    S[11] + I[19] -> I[11]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001280821'>
+    S[7] + I[19] -> I[7]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001140637'>
+    S[17] + I[19] -> I[17]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000985616'>
+    S[22] + I[19] -> I[22]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000927732'>
+    S[1] + I[19] -> I[1]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000890864'>
+    S[18] + I[19] -> I[18]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000805274'>
+    S[3] + I[19] -> I[3]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000615958'>
+    S[23] + I[19] -> I[23]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000545289'>
+    S[20] + I[19] -> I[20]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0004835'>
+    S[9] + I[19] -> I[9]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00047312'>
+    S[4] + I[19] -> I[4]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000431344'>
+    S[5] + I[19] -> I[5]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00038188'>
+    S[26] + I[19] -> I[26]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00035525'>
+    S[10] + I[19] -> I[10]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000345619'>
+    S[32] + I[19] -> I[32]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00032884'>
+    S[14] + I[19] -> I[14]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000315571'>
+    S[0] + I[19] -> I[0]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00031182'>
+    S[29] + I[19] -> I[29]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000294429'>
+    S[6] + I[19] -> I[6]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00071167'>
+    S[24] + I[30] -> I[24]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000271585'>
+    S[13] + I[19] -> I[13]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000224555'>
+    S[24] + I[19] -> I[24]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000212098'>
+    S[12] + I[19] -> I[12]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000182102'>
+    S[27] + I[19] -> I[27]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00016016'>
+    S[28] + I[19] -> I[28]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000153456'>
+    S[16] + I[19] -> I[16]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000133132'>
+    S[2] + I[19] -> I[2]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00010553'>
+    S[21] + I[19] -> I[21]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='6.18e-05'>
+    S[25] + I[19] -> I[25]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='8.78e-06'>
+    S[30] + I[19] -> I[30]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='4.89e-08'>
+    S[31] + I[19] -> I[31]+ I[19]
+    </reaction>
+    <reaction spec='Reaction' rate='0.06277938'>
+    S[1] + I[6] -> I[1]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009158502'>
+    S[5] + I[6] -> I[5]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002653669'>
+    S[8] + I[6] -> I[8]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002557279'>
+    S[10] + I[6] -> I[10]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002047913'>
+    S[4] + I[6] -> I[4]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002029774'>
+    S[32] + I[6] -> I[32]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001453052'>
+    S[11] + I[6] -> I[11]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001206284'>
+    S[14] + I[6] -> I[14]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000889382'>
+    S[13] + I[6] -> I[13]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000887437'>
+    S[2] + I[6] -> I[2]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000885308'>
+    S[9] + I[6] -> I[9]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000705232'>
+    S[15] + I[6] -> I[15]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000575198'>
+    S[12] + I[6] -> I[12]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000467136'>
+    S[21] + I[6] -> I[21]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000406506'>
+    S[20] + I[6] -> I[20]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000378216'>
+    S[7] + I[6] -> I[7]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000376359'>
+    S[3] + I[6] -> I[3]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00033315'>
+    S[19] + I[6] -> I[19]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000250779'>
+    S[17] + I[6] -> I[17]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000248972'>
+    S[23] + I[6] -> I[23]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000230081'>
+    S[25] + I[6] -> I[25]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000615708'>
+    S[1] + I[30] -> I[1]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00022007'>
+    S[18] + I[6] -> I[18]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000181751'>
+    S[22] + I[6] -> I[22]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000610939'>
+    S[26] + I[30] -> I[26]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000178517'>
+    S[24] + I[6] -> I[24]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000154047'>
+    S[16] + I[6] -> I[16]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000149728'>
+    S[27] + I[6] -> I[27]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='9.57e-05'>
+    S[28] + I[6] -> I[28]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='8.97e-05'>
+    S[26] + I[6] -> I[26]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='7.89e-05'>
+    S[29] + I[6] -> I[29]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='6.93e-05'>
+    S[0] + I[6] -> I[0]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='6.48e-06'>
+    S[30] + I[6] -> I[30]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='3.14e-08'>
+    S[31] + I[6] -> I[31]+ I[6]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006906056'>
+    S[1] + I[4] -> I[1]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005615499'>
+    S[10] + I[4] -> I[10]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004464758'>
+    S[32] + I[4] -> I[32]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00436359'>
+    S[8] + I[4] -> I[8]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004360537'>
+    S[11] + I[4] -> I[11]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002878951'>
+    S[6] + I[4] -> I[6]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002570717'>
+    S[5] + I[4] -> I[5]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001590846'>
+    S[13] + I[4] -> I[13]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001152203'>
+    S[14] + I[4] -> I[14]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000914473'>
+    S[15] + I[4] -> I[15]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000901942'>
+    S[9] + I[4] -> I[9]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000890065'>
+    S[2] + I[4] -> I[2]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000762063'>
+    S[3] + I[4] -> I[3]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000667702'>
+    S[7] + I[4] -> I[7]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000666441'>
+    S[19] + I[4] -> I[19]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000628239'>
+    S[20] + I[4] -> I[20]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000622955'>
+    S[23] + I[4] -> I[23]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000580047'>
+    S[12] + I[4] -> I[12]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000476097'>
+    S[24] + I[4] -> I[24]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000412569'>
+    S[18] + I[4] -> I[18]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000412171'>
+    S[17] + I[4] -> I[17]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000384969'>
+    S[22] + I[4] -> I[22]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000345498'>
+    S[21] + I[4] -> I[21]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000305056'>
+    S[27] + I[4] -> I[27]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000303668'>
+    S[26] + I[4] -> I[26]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000251338'>
+    S[16] + I[4] -> I[16]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000229693'>
+    S[29] + I[4] -> I[29]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000159141'>
+    S[28] + I[4] -> I[28]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00015672'>
+    S[25] + I[4] -> I[25]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000151347'>
+    S[0] + I[4] -> I[0]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='6.83e-06'>
+    S[30] + I[4] -> I[30]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='6.68e-08'>
+    S[31] + I[4] -> I[31]+ I[4]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009586115'>
+    S[5] + I[10] -> I[5]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00897834'>
+    S[1] + I[10] -> I[1]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007147642'>
+    S[4] + I[10] -> I[4]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005037549'>
+    S[11] + I[10] -> I[11]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004786592'>
+    S[6] + I[10] -> I[6]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004567104'>
+    S[13] + I[10] -> I[13]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003504707'>
+    S[8] + I[10] -> I[8]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001519935'>
+    S[32] + I[10] -> I[32]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00146259'>
+    S[3] + I[10] -> I[3]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000930247'>
+    S[20] + I[10] -> I[20]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000919738'>
+    S[14] + I[10] -> I[14]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000757321'>
+    S[15] + I[10] -> I[15]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000744282'>
+    S[9] + I[10] -> I[9]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000741483'>
+    S[7] + I[10] -> I[7]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000554798'>
+    S[24] + I[10] -> I[24]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000460308'>
+    S[19] + I[10] -> I[19]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000455215'>
+    S[21] + I[10] -> I[21]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000453112'>
+    S[18] + I[10] -> I[18]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000449421'>
+    S[2] + I[10] -> I[2]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000414256'>
+    S[12] + I[10] -> I[12]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000408982'>
+    S[27] + I[10] -> I[27]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000404017'>
+    S[23] + I[10] -> I[23]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000381195'>
+    S[26] + I[10] -> I[26]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000364039'>
+    S[17] + I[10] -> I[17]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000252422'>
+    S[22] + I[10] -> I[22]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000197754'>
+    S[29] + I[10] -> I[29]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000189411'>
+    S[16] + I[10] -> I[16]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000175613'>
+    S[28] + I[10] -> I[28]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000156526'>
+    S[25] + I[10] -> I[25]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000106783'>
+    S[0] + I[10] -> I[0]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='3.15e-06'>
+    S[30] + I[10] -> I[30]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='8.33e-08'>
+    S[31] + I[10] -> I[31]+ I[10]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009796771'>
+    S[24] + I[20] -> I[24]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007301738'>
+    S[11] + I[20] -> I[11]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006037817'>
+    S[3] + I[20] -> I[3]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004983321'>
+    S[8] + I[20] -> I[8]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004871276'>
+    S[23] + I[20] -> I[23]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004733935'>
+    S[28] + I[20] -> I[28]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003171453'>
+    S[18] + I[20] -> I[18]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003169391'>
+    S[27] + I[20] -> I[27]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003130627'>
+    S[15] + I[20] -> I[15]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002087135'>
+    S[26] + I[20] -> I[26]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001493479'>
+    S[7] + I[20] -> I[7]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001320197'>
+    S[1] + I[20] -> I[1]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001129067'>
+    S[17] + I[20] -> I[17]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0007218'>
+    S[5] + I[20] -> I[5]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000656071'>
+    S[10] + I[20] -> I[10]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000584786'>
+    S[29] + I[20] -> I[29]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00058132'>
+    S[19] + I[20] -> I[19]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000494433'>
+    S[4] + I[20] -> I[4]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000446931'>
+    S[22] + I[20] -> I[22]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000385101'>
+    S[0] + I[20] -> I[0]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000344002'>
+    S[13] + I[20] -> I[13]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000328513'>
+    S[14] + I[20] -> I[14]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000410969'>
+    S[19] + I[30] -> I[19]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000322762'>
+    S[6] + I[20] -> I[6]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000266439'>
+    S[9] + I[20] -> I[9]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000232655'>
+    S[32] + I[20] -> I[32]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000120742'>
+    S[21] + I[20] -> I[21]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000108717'>
+    S[2] + I[20] -> I[2]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000102665'>
+    S[12] + I[20] -> I[12]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='5.78e-05'>
+    S[25] + I[20] -> I[25]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='4.91e-05'>
+    S[16] + I[20] -> I[16]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='3.61e-05'>
+    S[30] + I[20] -> I[30]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='1.23e-08'>
+    S[31] + I[20] -> I[31]+ I[20]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00557149'>
+    S[9] + I[12] -> I[9]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003870213'>
+    S[21] + I[12] -> I[21]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003634237'>
+    S[14] + I[12] -> I[14]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00308034'>
+    S[5] + I[12] -> I[5]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002968632'>
+    S[1] + I[12] -> I[1]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002571345'>
+    S[8] + I[12] -> I[8]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001932903'>
+    S[2] + I[12] -> I[2]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001902041'>
+    S[13] + I[12] -> I[13]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00125012'>
+    S[11] + I[12] -> I[11]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001078704'>
+    S[32] + I[12] -> I[32]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000979387'>
+    S[4] + I[12] -> I[4]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000653597'>
+    S[25] + I[12] -> I[25]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000650605'>
+    S[6] + I[12] -> I[6]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000383253'>
+    S[10] + I[30] -> I[10]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000597125'>
+    S[16] + I[12] -> I[16]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000495124'>
+    S[15] + I[12] -> I[15]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000479254'>
+    S[7] + I[12] -> I[7]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000407872'>
+    S[10] + I[12] -> I[10]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000354319'>
+    S[19] + I[12] -> I[19]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000338067'>
+    S[22] + I[12] -> I[22]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000288709'>
+    S[3] + I[12] -> I[3]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000279717'>
+    S[17] + I[12] -> I[17]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000276562'>
+    S[18] + I[12] -> I[18]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000236221'>
+    S[23] + I[12] -> I[23]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000163497'>
+    S[24] + I[12] -> I[24]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000373418'>
+    S[5] + I[30] -> I[5]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00015244'>
+    S[20] + I[12] -> I[20]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00013122'>
+    S[26] + I[12] -> I[26]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='8.57e-05'>
+    S[27] + I[12] -> I[27]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='6.73e-05'>
+    S[29] + I[12] -> I[29]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='3.74e-05'>
+    S[28] + I[12] -> I[28]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='3.6e-05'>
+    S[0] + I[12] -> I[0]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='1.15e-06'>
+    S[30] + I[12] -> I[30]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='8.13e-09'>
+    S[31] + I[12] -> I[31]+ I[12]
+    </reaction>
+    <reaction spec='Reaction' rate='0.011358791'>
+    S[17] + I[18] -> I[17]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009833675'>
+    S[15] + I[18] -> I[15]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007625478'>
+    S[8] + I[18] -> I[8]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00386848'>
+    S[7] + I[18] -> I[7]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003068477'>
+    S[3] + I[18] -> I[3]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00235826'>
+    S[11] + I[18] -> I[11]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002235631'>
+    S[26] + I[18] -> I[26]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002075201'>
+    S[20] + I[18] -> I[20]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001909599'>
+    S[0] + I[18] -> I[0]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0015301'>
+    S[22] + I[18] -> I[22]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001166015'>
+    S[23] + I[18] -> I[23]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001030821'>
+    S[19] + I[18] -> I[19]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000917637'>
+    S[24] + I[18] -> I[24]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000768935'>
+    S[29] + I[18] -> I[29]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000751731'>
+    S[1] + I[18] -> I[1]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000545327'>
+    S[28] + I[18] -> I[28]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000455572'>
+    S[5] + I[18] -> I[5]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000429598'>
+    S[9] + I[18] -> I[9]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000425614'>
+    S[27] + I[18] -> I[27]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000424452'>
+    S[4] + I[18] -> I[4]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000389017'>
+    S[10] + I[18] -> I[10]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000293624'>
+    S[6] + I[18] -> I[6]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000255713'>
+    S[32] + I[18] -> I[32]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000226106'>
+    S[13] + I[18] -> I[13]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000208153'>
+    S[14] + I[18] -> I[14]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000186451'>
+    S[12] + I[18] -> I[12]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000100513'>
+    S[2] + I[18] -> I[2]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='9.81e-05'>
+    S[21] + I[18] -> I[21]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='8.56e-05'>
+    S[16] + I[18] -> I[16]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='3.75e-05'>
+    S[25] + I[18] -> I[25]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='2.46e-05'>
+    S[30] + I[18] -> I[30]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='1.57e-08'>
+    S[31] + I[18] -> I[31]+ I[18]
+    </reaction>
+    <reaction spec='Reaction' rate='0.011814269'>
+    S[7] + I[0] -> I[7]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009131094'>
+    S[17] + I[0] -> I[17]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007707932'>
+    S[8] + I[0] -> I[8]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007465111'>
+    S[29] + I[0] -> I[29]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006846394'>
+    S[15] + I[0] -> I[15]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003283931'>
+    S[30] + I[0] -> I[30]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002343104'>
+    S[18] + I[0] -> I[18]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001525178'>
+    S[11] + I[0] -> I[11]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001400417'>
+    S[22] + I[0] -> I[22]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001272824'>
+    S[3] + I[0] -> I[3]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000962278'>
+    S[19] + I[0] -> I[19]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000946572'>
+    S[20] + I[0] -> I[20]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000660413'>
+    S[1] + I[0] -> I[1]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000643058'>
+    S[23] + I[0] -> I[23]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000553316'>
+    S[26] + I[0] -> I[26]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000343012'>
+    S[5] + I[0] -> I[5]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000303989'>
+    S[24] + I[0] -> I[24]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000236258'>
+    S[27] + I[0] -> I[27]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000227406'>
+    S[9] + I[0] -> I[9]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000217307'>
+    S[14] + I[0] -> I[14]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000214543'>
+    S[28] + I[0] -> I[28]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000214011'>
+    S[4] + I[0] -> I[4]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000185991'>
+    S[13] + I[0] -> I[13]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000162245'>
+    S[10] + I[0] -> I[10]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000160574'>
+    S[6] + I[0] -> I[6]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000299211'>
+    S[9] + I[30] -> I[9]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000148329'>
+    S[32] + I[0] -> I[32]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='7.29e-05'>
+    S[12] + I[0] -> I[12]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='7.07e-05'>
+    S[2] + I[0] -> I[2]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='6.97e-05'>
+    S[21] + I[0] -> I[21]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='6.55e-05'>
+    S[25] + I[0] -> I[25]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='3.43e-05'>
+    S[16] + I[0] -> I[16]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='1.37e-07'>
+    S[31] + I[0] -> I[31]+ I[0]
+    </reaction>
+    <reaction spec='Reaction' rate='0.038416996'>
+    S[11] + I[24] -> I[11]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.015687933'>
+    S[20] + I[24] -> I[20]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004319837'>
+    S[8] + I[24] -> I[8]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002188089'>
+    S[3] + I[24] -> I[3]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002084167'>
+    S[18] + I[24] -> I[18]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001692272'>
+    S[15] + I[24] -> I[15]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001572805'>
+    S[23] + I[24] -> I[23]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001505285'>
+    S[27] + I[24] -> I[27]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001446825'>
+    S[1] + I[24] -> I[1]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001078246'>
+    S[7] + I[24] -> I[7]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000948844'>
+    S[28] + I[24] -> I[28]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000839818'>
+    S[26] + I[24] -> I[26]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000791735'>
+    S[17] + I[24] -> I[17]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000723083'>
+    S[10] + I[24] -> I[10]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000669731'>
+    S[4] + I[24] -> I[4]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000511566'>
+    S[19] + I[24] -> I[19]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000487863'>
+    S[5] + I[24] -> I[5]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000389865'>
+    S[14] + I[24] -> I[14]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000341585'>
+    S[6] + I[24] -> I[6]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00030559'>
+    S[29] + I[24] -> I[29]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000299387'>
+    S[22] + I[24] -> I[22]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000266727'>
+    S[32] + I[30] -> I[32]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000287772'>
+    S[9] + I[24] -> I[9]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000243713'>
+    S[13] + I[24] -> I[13]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000199745'>
+    S[32] + I[24] -> I[32]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000192055'>
+    S[0] + I[24] -> I[0]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000123569'>
+    S[12] + I[24] -> I[12]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='9.86e-05'>
+    S[2] + I[24] -> I[2]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='8.63e-05'>
+    S[21] + I[24] -> I[21]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='7.63e-05'>
+    S[25] + I[24] -> I[25]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='3.12e-05'>
+    S[16] + I[24] -> I[16]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='1.66e-05'>
+    S[30] + I[24] -> I[30]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='9.46e-08'>
+    S[31] + I[24] -> I[31]+ I[24]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006318774'>
+    S[8] + I[3] -> I[8]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006071742'>
+    S[20] + I[3] -> I[20]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004983741'>
+    S[11] + I[3] -> I[11]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003278982'>
+    S[18] + I[3] -> I[18]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002643938'>
+    S[15] + I[3] -> I[15]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002359907'>
+    S[29] + I[3] -> I[29]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001713186'>
+    S[7] + I[3] -> I[7]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001506382'>
+    S[17] + I[3] -> I[17]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001422559'>
+    S[27] + I[3] -> I[27]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001106147'>
+    S[1] + I[3] -> I[1]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001036681'>
+    S[24] + I[3] -> I[24]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000850652'>
+    S[23] + I[3] -> I[23]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000712904'>
+    S[19] + I[3] -> I[19]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000602494'>
+    S[5] + I[3] -> I[5]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000572496'>
+    S[22] + I[3] -> I[22]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000533238'>
+    S[0] + I[3] -> I[0]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000527897'>
+    S[26] + I[3] -> I[26]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000521115'>
+    S[28] + I[3] -> I[28]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000484629'>
+    S[10] + I[3] -> I[10]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000462781'>
+    S[30] + I[3] -> I[30]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000461'>
+    S[4] + I[3] -> I[4]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000410749'>
+    S[14] + I[3] -> I[14]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000319784'>
+    S[9] + I[3] -> I[9]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000284658'>
+    S[6] + I[3] -> I[6]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000244939'>
+    S[13] + I[3] -> I[13]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000189108'>
+    S[32] + I[3] -> I[32]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00015643'>
+    S[12] + I[3] -> I[12]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000121117'>
+    S[21] + I[3] -> I[21]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000117837'>
+    S[2] + I[3] -> I[2]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='6.81e-05'>
+    S[25] + I[3] -> I[25]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='5.16e-05'>
+    S[16] + I[3] -> I[16]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='7.05e-08'>
+    S[31] + I[3] -> I[31]+ I[3]
+    </reaction>
+    <reaction spec='Reaction' rate='0.010689315'>
+    S[0] + I[29] -> I[0]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.007791302'>
+    S[3] + I[29] -> I[3]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00731634'>
+    S[8] + I[29] -> I[8]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004582064'>
+    S[15] + I[29] -> I[15]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004358582'>
+    S[7] + I[29] -> I[7]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003107936'>
+    S[17] + I[29] -> I[17]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0027917'>
+    S[11] + I[29] -> I[11]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001612348'>
+    S[20] + I[29] -> I[20]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001205445'>
+    S[18] + I[29] -> I[18]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000859102'>
+    S[19] + I[29] -> I[19]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000808525'>
+    S[22] + I[29] -> I[22]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000807616'>
+    S[1] + I[29] -> I[1]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000520052'>
+    S[23] + I[29] -> I[23]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000480592'>
+    S[26] + I[29] -> I[26]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000477703'>
+    S[24] + I[29] -> I[24]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000411605'>
+    S[5] + I[29] -> I[5]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000378028'>
+    S[27] + I[29] -> I[27]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000346157'>
+    S[10] + I[29] -> I[10]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000342755'>
+    S[4] + I[29] -> I[4]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000273082'>
+    S[13] + I[29] -> I[13]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000262324'>
+    S[14] + I[29] -> I[14]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000202289'>
+    S[9] + I[29] -> I[9]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000190338'>
+    S[28] + I[29] -> I[28]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000161616'>
+    S[6] + I[29] -> I[6]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00014161'>
+    S[32] + I[29] -> I[32]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000111707'>
+    S[30] + I[29] -> I[30]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000108818'>
+    S[12] + I[29] -> I[12]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='9.5e-05'>
+    S[21] + I[29] -> I[21]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='7.2e-05'>
+    S[2] + I[29] -> I[2]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='5.94e-05'>
+    S[25] + I[29] -> I[25]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='3.68e-05'>
+    S[16] + I[29] -> I[16]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='5.57e-08'>
+    S[31] + I[29] -> I[31]+ I[29]
+    </reaction>
+    <reaction spec='Reaction' rate='0.010618832'>
+    S[13] + I[16] -> I[13]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003943145'>
+    S[9] + I[16] -> I[9]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002719658'>
+    S[14] + I[16] -> I[14]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002430918'>
+    S[5] + I[16] -> I[5]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002340812'>
+    S[1] + I[16] -> I[1]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001737172'>
+    S[8] + I[16] -> I[8]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001517317'>
+    S[12] + I[16] -> I[12]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001202022'>
+    S[32] + I[16] -> I[32]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000987763'>
+    S[21] + I[16] -> I[21]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000878183'>
+    S[2] + I[16] -> I[2]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00085559'>
+    S[6] + I[16] -> I[6]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000191626'>
+    S[13] + I[30] -> I[13]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000814425'>
+    S[11] + I[16] -> I[11]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00080126'>
+    S[4] + I[16] -> I[4]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000722648'>
+    S[25] + I[16] -> I[25]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000588522'>
+    S[15] + I[16] -> I[15]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000482153'>
+    S[10] + I[16] -> I[10]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000451373'>
+    S[17] + I[16] -> I[17]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000329117'>
+    S[18] + I[16] -> I[18]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00032476'>
+    S[19] + I[16] -> I[19]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000306468'>
+    S[20] + I[16] -> I[20]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000186262'>
+    S[27] + I[30] -> I[27]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000229452'>
+    S[7] + I[16] -> I[7]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000190521'>
+    S[22] + I[16] -> I[22]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000180812'>
+    S[3] + I[16] -> I[3]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000169075'>
+    S[26] + I[16] -> I[26]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='9.52e-05'>
+    S[23] + I[16] -> I[23]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='8.79e-05'>
+    S[24] + I[16] -> I[24]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='6.56e-05'>
+    S[0] + I[16] -> I[0]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='6e-05'>
+    S[27] + I[16] -> I[27]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='5.52e-05'>
+    S[29] + I[16] -> I[29]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='3.89e-05'>
+    S[28] + I[16] -> I[28]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='4.69e-07'>
+    S[30] + I[16] -> I[30]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='1.88e-07'>
+    S[31] + I[16] -> I[31]+ I[16]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00658636'>
+    S[1] + I[14] -> I[1]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005582546'>
+    S[5] + I[14] -> I[5]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005196592'>
+    S[13] + I[14] -> I[13]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005165508'>
+    S[25] + I[14] -> I[25]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004521591'>
+    S[8] + I[14] -> I[8]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004464067'>
+    S[2] + I[14] -> I[2]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004318167'>
+    S[21] + I[14] -> I[21]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003774126'>
+    S[11] + I[14] -> I[11]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003454898'>
+    S[9] + I[14] -> I[9]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002689819'>
+    S[12] + I[14] -> I[12]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001257587'>
+    S[4] + I[14] -> I[4]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001074576'>
+    S[6] + I[14] -> I[6]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0010696'>
+    S[15] + I[14] -> I[15]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00087992'>
+    S[7] + I[14] -> I[7]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000875383'>
+    S[3] + I[14] -> I[3]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000675335'>
+    S[10] + I[14] -> I[10]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000671787'>
+    S[20] + I[14] -> I[20]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000574264'>
+    S[23] + I[14] -> I[23]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000533753'>
+    S[32] + I[14] -> I[32]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000511415'>
+    S[16] + I[14] -> I[16]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00044078'>
+    S[19] + I[14] -> I[19]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000354873'>
+    S[24] + I[14] -> I[24]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000324121'>
+    S[17] + I[14] -> I[17]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000275806'>
+    S[22] + I[14] -> I[22]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000271575'>
+    S[29] + I[14] -> I[29]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00024216'>
+    S[27] + I[14] -> I[27]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000237084'>
+    S[18] + I[14] -> I[18]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000150978'>
+    S[0] + I[14] -> I[0]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000140367'>
+    S[28] + I[14] -> I[28]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000103167'>
+    S[26] + I[14] -> I[26]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='9.44e-06'>
+    S[30] + I[14] -> I[30]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='4.68e-08'>
+    S[31] + I[14] -> I[31]+ I[14]
+    </reaction>
+    <reaction spec='Reaction' rate='0.017074085'>
+    S[15] + I[22] -> I[15]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.016057446'>
+    S[8] + I[22] -> I[8]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006506554'>
+    S[7] + I[22] -> I[7]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001561302'>
+    S[19] + I[22] -> I[19]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001548958'>
+    S[17] + I[22] -> I[17]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001411509'>
+    S[18] + I[22] -> I[18]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001071831'>
+    S[11] + I[22] -> I[11]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000875881'>
+    S[3] + I[22] -> I[3]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000715389'>
+    S[23] + I[22] -> I[23]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000657844'>
+    S[1] + I[22] -> I[1]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000632976'>
+    S[20] + I[22] -> I[20]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.0006093'>
+    S[0] + I[22] -> I[0]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000535887'>
+    S[26] + I[22] -> I[26]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000481089'>
+    S[29] + I[22] -> I[29]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000398114'>
+    S[5] + I[22] -> I[5]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000385098'>
+    S[9] + I[22] -> I[9]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000355573'>
+    S[4] + I[22] -> I[4]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000303847'>
+    S[13] + I[22] -> I[13]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000121592'>
+    S[6] + I[30] -> I[6]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000272804'>
+    S[10] + I[22] -> I[10]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000271636'>
+    S[24] + I[22] -> I[24]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000221863'>
+    S[6] + I[22] -> I[6]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00021966'>
+    S[14] + I[22] -> I[14]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000205166'>
+    S[28] + I[22] -> I[28]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00020122'>
+    S[32] + I[22] -> I[32]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000191469'>
+    S[27] + I[22] -> I[27]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000162668'>
+    S[12] + I[22] -> I[12]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000118679'>
+    S[16] + I[22] -> I[16]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000112149'>
+    S[21] + I[22] -> I[21]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000110052'>
+    S[2] + I[22] -> I[2]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='4.78e-05'>
+    S[25] + I[22] -> I[25]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='1.77e-05'>
+    S[30] + I[22] -> I[30]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='2.63e-08'>
+    S[31] + I[22] -> I[31]+ I[22]
+    </reaction>
+    <reaction spec='Reaction' rate='0.022608588'>
+    S[14] + I[25] -> I[14]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.01888785'>
+    S[13] + I[25] -> I[13]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005924757'>
+    S[21] + I[25] -> I[21]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004106476'>
+    S[5] + I[25] -> I[5]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003128434'>
+    S[1] + I[25] -> I[1]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002397863'>
+    S[2] + I[25] -> I[2]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002287099'>
+    S[12] + I[25] -> I[12]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002065058'>
+    S[8] + I[25] -> I[8]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001998428'>
+    S[9] + I[25] -> I[9]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001072393'>
+    S[6] + I[25] -> I[6]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000933663'>
+    S[11] + I[25] -> I[11]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000698706'>
+    S[16] + I[25] -> I[16]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00067927'>
+    S[4] + I[25] -> I[4]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000646273'>
+    S[15] + I[25] -> I[15]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000612239'>
+    S[10] + I[25] -> I[10]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000596544'>
+    S[32] + I[25] -> I[32]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000398301'>
+    S[3] + I[25] -> I[3]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000378915'>
+    S[20] + I[25] -> I[20]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000367655'>
+    S[7] + I[25] -> I[7]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000333536'>
+    S[19] + I[25] -> I[19]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000236005'>
+    S[24] + I[25] -> I[24]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000226769'>
+    S[23] + I[25] -> I[23]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00020514'>
+    S[18] + I[25] -> I[18]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='9.98e-05'>
+    S[2] + I[30] -> I[2]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000180574'>
+    S[27] + I[25] -> I[27]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000165294'>
+    S[17] + I[25] -> I[17]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000148636'>
+    S[22] + I[25] -> I[22]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00011241'>
+    S[29] + I[25] -> I[29]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000109034'>
+    S[28] + I[25] -> I[28]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000103295'>
+    S[26] + I[25] -> I[26]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='6.55e-05'>
+    S[0] + I[25] -> I[0]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='3.94e-06'>
+    S[30] + I[25] -> I[30]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='9.36e-05'>
+    S[4] + I[30] -> I[4]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='2.44e-08'>
+    S[31] + I[25] -> I[31]+ I[25]
+    </reaction>
+    <reaction spec='Reaction' rate='0.013365638'>
+    S[5] + I[1] -> I[5]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009387015'>
+    S[6] + I[1] -> I[6]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004259959'>
+    S[8] + I[1] -> I[8]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002475838'>
+    S[11] + I[1] -> I[11]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001937444'>
+    S[4] + I[1] -> I[4]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='8.73e-05'>
+    S[28] + I[30] -> I[28]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00191892'>
+    S[32] + I[1] -> I[32]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001880905'>
+    S[14] + I[1] -> I[14]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001819438'>
+    S[10] + I[1] -> I[10]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00162859'>
+    S[9] + I[1] -> I[9]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001017792'>
+    S[13] + I[1] -> I[13]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='8.52e-05'>
+    S[12] + I[30] -> I[12]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000901413'>
+    S[2] + I[1] -> I[2]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000819417'>
+    S[12] + I[1] -> I[12]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000782054'>
+    S[15] + I[1] -> I[15]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='8.31e-05'>
+    S[14] + I[30] -> I[14]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000660793'>
+    S[7] + I[1] -> I[7]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000473484'>
+    S[3] + I[1] -> I[3]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000466439'>
+    S[21] + I[1] -> I[21]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000431288'>
+    S[20] + I[1] -> I[20]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000362563'>
+    S[19] + I[1] -> I[19]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000339435'>
+    S[17] + I[1] -> I[17]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000329252'>
+    S[23] + I[1] -> I[23]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000253079'>
+    S[16] + I[1] -> I[16]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000242797'>
+    S[24] + I[1] -> I[24]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000218'>
+    S[18] + I[1] -> I[18]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000194385'>
+    S[22] + I[1] -> I[22]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00018442'>
+    S[27] + I[1] -> I[27]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00017866'>
+    S[25] + I[1] -> I[25]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000121159'>
+    S[29] + I[1] -> I[29]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='7.09e-05'>
+    S[16] + I[30] -> I[16]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000105141'>
+    S[28] + I[1] -> I[28]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='9.55e-05'>
+    S[0] + I[1] -> I[0]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='9.16e-05'>
+    S[26] + I[1] -> I[26]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='3.45e-06'>
+    S[30] + I[1] -> I[30]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='1.79e-07'>
+    S[31] + I[1] -> I[31]+ I[1]
+    </reaction>
+    <reaction spec='Reaction' rate='0.011994221'>
+    S[14] + I[21] -> I[14]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009852279'>
+    S[9] + I[21] -> I[9]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.006628413'>
+    S[13] + I[21] -> I[13]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00516956'>
+    S[12] + I[21] -> I[12]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004916747'>
+    S[5] + I[21] -> I[5]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004238529'>
+    S[1] + I[21] -> I[1]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003551269'>
+    S[25] + I[21] -> I[25]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002847024'>
+    S[2] + I[21] -> I[2]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002708061'>
+    S[8] + I[21] -> I[8]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001277695'>
+    S[11] + I[21] -> I[11]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001249577'>
+    S[6] + I[21] -> I[6]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000878462'>
+    S[4] + I[21] -> I[4]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000781685'>
+    S[32] + I[21] -> I[32]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000719432'>
+    S[10] + I[21] -> I[10]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000661243'>
+    S[15] + I[21] -> I[15]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000605086'>
+    S[16] + I[21] -> I[16]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000462001'>
+    S[20] + I[21] -> I[20]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000457927'>
+    S[3] + I[21] -> I[3]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00042981'>
+    S[7] + I[21] -> I[7]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000342279'>
+    S[19] + I[21] -> I[19]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000244306'>
+    S[27] + I[21] -> I[27]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000243479'>
+    S[18] + I[21] -> I[18]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000238774'>
+    S[17] + I[21] -> I[17]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000204813'>
+    S[24] + I[21] -> I[24]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000195013'>
+    S[22] + I[21] -> I[22]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000190375'>
+    S[23] + I[21] -> I[23]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000151845'>
+    S[29] + I[21] -> I[29]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000110087'>
+    S[0] + I[21] -> I[0]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000108901'>
+    S[26] + I[21] -> I[26]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='8.81e-05'>
+    S[28] + I[21] -> I[28]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='3.34e-06'>
+    S[30] + I[21] -> I[30]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='9.72e-09'>
+    S[31] + I[21] -> I[31]+ I[21]
+    </reaction>
+    <reaction spec='Reaction' rate='0.011746858'>
+    S[8] + I[7] -> I[8]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.009658874'>
+    S[15] + I[7] -> I[15]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00472437'>
+    S[17] + I[7] -> I[17]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.004701365'>
+    S[22] + I[7] -> I[22]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003787185'>
+    S[0] + I[7] -> I[0]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002013592'>
+    S[18] + I[7] -> I[18]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001949417'>
+    S[11] + I[7] -> I[11]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001389999'>
+    S[3] + I[7] -> I[3]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001300087'>
+    S[19] + I[7] -> I[19]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001255454'>
+    S[1] + I[7] -> I[1]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001205144'>
+    S[29] + I[7] -> I[29]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000979223'>
+    S[20] + I[7] -> I[20]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000921324'>
+    S[23] + I[7] -> I[23]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000728968'>
+    S[26] + I[7] -> I[26]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000539252'>
+    S[14] + I[7] -> I[14]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00046875'>
+    S[30] + I[7] -> I[30]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000454412'>
+    S[5] + I[7] -> I[5]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='1.64e-05'>
+    S[25] + I[30] -> I[25]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000408244'>
+    S[9] + I[7] -> I[9]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='1.28e-05'>
+    S[21] + I[30] -> I[21]+ I[30]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000405029'>
+    S[4] + I[7] -> I[4]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000378301'>
+    S[24] + I[7] -> I[24]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000309197'>
+    S[10] + I[7] -> I[10]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000284856'>
+    S[13] + I[7] -> I[13]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000256492'>
+    S[27] + I[7] -> I[27]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000239082'>
+    S[28] + I[7] -> I[28]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000225269'>
+    S[6] + I[7] -> I[6]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000178767'>
+    S[12] + I[7] -> I[12]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000159376'>
+    S[32] + I[7] -> I[32]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000111718'>
+    S[2] + I[7] -> I[2]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='8.37e-05'>
+    S[21] + I[7] -> I[21]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='5.51e-05'>
+    S[25] + I[7] -> I[25]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='4.39e-05'>
+    S[16] + I[7] -> I[16]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='6.07e-08'>
+    S[31] + I[7] -> I[31]+ I[7]
+    </reaction>
+    <reaction spec='Reaction' rate='0.005146385'>
+    S[15] + I[8] -> I[15]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.003605692'>
+    S[19] + I[8] -> I[19]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002510456'>
+    S[22] + I[8] -> I[22]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.002451809'>
+    S[11] + I[8] -> I[11]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00225829'>
+    S[7] + I[8] -> I[7]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001619982'>
+    S[17] + I[8] -> I[17]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001610053'>
+    S[1] + I[8] -> I[1]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001145055'>
+    S[18] + I[8] -> I[18]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.001086887'>
+    S[9] + I[8] -> I[9]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000900211'>
+    S[3] + I[8] -> I[3]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000662235'>
+    S[23] + I[8] -> I[23]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000652525'>
+    S[20] + I[8] -> I[20]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000583154'>
+    S[26] + I[8] -> I[26]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000542987'>
+    S[5] + I[8] -> I[5]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000462412'>
+    S[14] + I[8] -> I[14]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000401251'>
+    S[4] + I[8] -> I[4]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000379363'>
+    S[0] + I[8] -> I[0]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000324406'>
+    S[29] + I[8] -> I[29]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00031334'>
+    S[10] + I[8] -> I[10]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000279325'>
+    S[24] + I[8] -> I[24]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000272463'>
+    S[12] + I[8] -> I[12]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000250188'>
+    S[6] + I[8] -> I[6]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000248752'>
+    S[32] + I[8] -> I[32]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000228491'>
+    S[13] + I[8] -> I[13]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000166445'>
+    S[28] + I[8] -> I[28]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00014874'>
+    S[27] + I[8] -> I[27]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00013492'>
+    S[16] + I[8] -> I[16]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.00010984'>
+    S[2] + I[8] -> I[2]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='0.000107195'>
+    S[21] + I[8] -> I[21]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='3.95e-05'>
+    S[25] + I[8] -> I[25]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='1.18e-05'>
+    S[30] + I[8] -> I[30]+ I[8]
+    </reaction>
+    <reaction spec='Reaction' rate='2.72e-07'>
+    S[31] + I[8] -> I[31]+ I[8]
+    </reaction>
+</model>
+<initialState spec='InitState'>
+  <populationSize spec='PopulationSize' size='10'>
+    <population spec='Population' type='@I' location="0"/>
+  </populationSize>
+  <populationSize spec='PopulationSize' size='100'>
+    <population spec='Population' type='@S' location="0"/>
+  </populationSize>
+  <populationSize spec='PopulationSize' size='100'>
+    <population spec='Population' type='@S' location="1"/>
+  </populationSize>
+</initialState>
+
+  <populationEndCondition spec='PopulationEndCondition'
+                threshold="0.0001"
+                exceedCondition="False"
+                isRejection="True">
+   <population spec='Population' type='@I' location='0'/>
+   <population spec='Population' type='@I' location='1'/>
+ </populationEndCondition>
+   <output spec='JsonOutput' fileName='nzqrious.json'/>
+ </run>
+</beast>
