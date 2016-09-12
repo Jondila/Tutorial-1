@@ -1,4 +1,4 @@
-                                        # Simple SIR simulation in R
+# Simple SIR simulation in R
 
 simSIR <- function(beta=0.01, gamma=1.0, S0=100) {
 
@@ -14,7 +14,7 @@ simSIR <- function(beta=0.01, gamma=1.0, S0=100) {
 
         if (I[idx]<1)
             break
-        
+
         aInf <- beta*S[idx]*I[idx]
         aRec <- gamma*I[idx]
         a0 <- aInf + aRec
@@ -27,13 +27,13 @@ simSIR <- function(beta=0.01, gamma=1.0, S0=100) {
         ## Fire reaction
         if (runif(1)*a0 < aInf) {
             ## Infection
-            
+
             S[idx+1] <- S[idx] - 1
             I[idx+1] <- I[idx] + 1
             R[idx+1] <- R[idx]
         } else {
             ## Recovery
-            
+
             S[idx+1] <- S[idx]
             I[idx+1] <- I[idx] - 1
             R[idx+1] <- R[idx] + 1
