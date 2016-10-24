@@ -16,14 +16,11 @@ SIRModel <- function(beta = data$Share20160811_1429, gamma = 1.0, S0=100) {
 	i <- data$Home_RTO
 	j <- data$RTO
 	beta <- data$Share20160811_1429
-
     idx <- 1
-
     while (TRUE) {
 
         if (I[idx]<1)
             break
-        
         aInf <- beta*S[idx]*I[idx]
         aRec <- gamma*I[idx]
         a0 <- aInf + aRec
